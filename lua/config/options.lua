@@ -4,8 +4,13 @@ Default options that are always set: https://github.com/LazyVim/LazyVim/blob/mai
 Add any additional options here
 --]]
 
-local opt = vim.opt
+local opt = vim.o
 opt.tabstop = 4 -- Number of spaces tabs count for
+-- opt.expandtab = true
+opt.softtabstop = 4
+opt.shiftwidth = 4
+
+opt = vim.opt
 opt.winbar = "%=%m %f" -- Window format filename for splits
 
 table.insert(opt.spelllang, "ru")
