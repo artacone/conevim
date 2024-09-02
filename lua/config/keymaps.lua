@@ -3,6 +3,3 @@
 -- Add any additional keymaps here
 
 local km = vim.keymap
-
--- Continue previos telescope session
-km.set("n", "<leader>sx", require("telescope.builtin").resume, { noremap = true, silent = true, desc = "Resume" })
