@@ -6,13 +6,16 @@ local logo = [[
     ╚██████╔╝███████╗╚██████╔╝██║ ╚████║    ██████╔╝██║  ██║██║ ╚████║██║  ██╗
      ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
 ]]
-logo = string.rep("\n", 8) .. logo .. "\n\n"
+-- logo = string.rep("\n", 8) .. logo
 
 return {
-	"nvimdev/dashboard-nvim",
+	"folke/snacks.nvim",
 	opts = {
-		config = {
-			header = vim.split(logo, "\n"),
+		dashboard = {
+			preset = {
+				header = logo,
+				-- header = vim.split(logo, "\n"),
+			},
 		},
 	},
 }

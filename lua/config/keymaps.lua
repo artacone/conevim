@@ -3,3 +3,5 @@
 -- Add any additional keymaps here
 
 local km = vim.keymap
+
+-- vim.api.nvim_set_keymap("n", "<leader>n", ":ASToggle<CR>", {})
