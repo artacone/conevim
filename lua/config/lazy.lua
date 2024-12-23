@@ -28,7 +28,7 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.sql" },
 		{ import = "lazyvim.plugins.extras.lang.markdown" },
 
-		{ import = "lazyvim.plugins.extras.coding.codeium" },
+		{ import = "lazyvim.plugins.extras.ai.codeium" },
 
 		{ import = "lazyvim.plugins.extras.coding.mini-surround" },
 
